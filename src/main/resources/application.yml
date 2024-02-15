@@ -1,9 +1,12 @@
 server:
   port: 8080
 spring:
+  output:
+    ansi:
+      enabled: ALWAYS
   datasource:
     url: jdbc:postgresql://localhost:5432/async_task_service
-    username: postgres
+    username: sa
     password: sa
     driverClassName: org.postgresql.Driver
   jpa:
