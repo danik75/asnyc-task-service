@@ -3,7 +3,7 @@ server:
 spring:
   output:
     ansi:
-      enabled: ALWAYS
+      enabled: ALWAYS 
   datasource:
     url: jdbc:postgresql://localhost:5432/async_task_service
     username: sa
